@@ -3,33 +3,93 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		305A682D2FB3CA6900067722 /* AppButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67EE2FB3CA6900067722 /* AppButtonStyles.swift */; };
+		305A682E2FB3CA6900067722 /* DotPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67EF2FB3CA6900067722 /* DotPageIndicator.swift */; };
+		305A682F2FB3CA6900067722 /* LayeredBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F02FB3CA6900067722 /* LayeredBackgroundView.swift */; };
+		305A68302FB3CA6900067722 /* PauseOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F12FB3CA6900067722 /* PauseOverlayView.swift */; };
+		305A68312FB3CA6900067722 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F32FB3CA6900067722 /* AppExternalLink.swift */; };
+		305A68322FB3CA6900067722 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F52FB3CA6900067722 /* AppColors.swift */; };
+		305A68332FB3CA6900067722 /* AppVisualChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F62FB3CA6900067722 /* AppVisualChrome.swift */; };
+		305A68342FB3CA6900067722 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F82FB3CA6900067722 /* HapticFeedback.swift */; };
+		305A68352FB3CA6900067722 /* SystemSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67F92FB3CA6900067722 /* SystemSounds.swift */; };
+		305A68362FB3CA6900067722 /* ActivityDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67FB2FB3CA6900067722 /* ActivityDefinition.swift */; };
+		305A68372FB3CA6900067722 /* GameDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67FC2FB3CA6900067722 /* GameDifficulty.swift */; };
+		305A68382FB3CA6900067722 /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A67FE2FB3CA6900067722 /* AppNotifications.swift */; };
+		305A68392FB3CA6900067722 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68002FB3CA6900067722 /* AppStorage.swift */; };
+		305A683A2FB3CA6900067722 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68022FB3CA6900067722 /* CalendarDay.swift */; };
+		305A683B2FB3CA6900067722 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68052FB3CA6900067722 /* AchievementsView.swift */; };
+		305A683C2FB3CA6900067722 /* ChorusGroveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68072FB3CA6900067722 /* ChorusGroveView.swift */; };
+		305A683D2FB3CA6900067722 /* ChorusGroveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68082FB3CA6900067722 /* ChorusGroveViewModel.swift */; };
+		305A683E2FB3CA6900067722 /* PetalHarmonyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A680A2FB3CA6900067722 /* PetalHarmonyView.swift */; };
+		305A683F2FB3CA6900067722 /* PetalHarmonyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A680B2FB3CA6900067722 /* PetalHarmonyViewModel.swift */; };
+		305A68402FB3CA6900067722 /* PetalPathwayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A680D2FB3CA6900067722 /* PetalPathwayView.swift */; };
+		305A68412FB3CA6900067722 /* PetalPathwayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A680E2FB3CA6900067722 /* PetalPathwayViewModel.swift */; };
+		305A68422FB3CA6900067722 /* HowToPlayViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68112FB3CA6900067722 /* HowToPlayViews.swift */; };
+		305A68432FB3CA6900067722 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68132FB3CA6900067722 /* HomeView.swift */; };
+		305A68442FB3CA6900067722 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68142FB3CA6900067722 /* MainTabView.swift */; };
+		305A68452FB3CA6900067722 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68162FB3CA6900067722 /* OnboardingView.swift */; };
+		305A68462FB3CA6900067722 /* ActivitySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68182FB3CA6900067722 /* ActivitySelectionView.swift */; };
+		305A68472FB3CA6900067722 /* PlayTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68192FB3CA6900067722 /* PlayTabView.swift */; };
+		305A68482FB3CA6900067722 /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A681B2FB3CA6900067722 /* GameResultView.swift */; };
+		305A68492FB3CA6900067722 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A681D2FB3CA6900067722 /* SettingsView.swift */; };
+		305A684A2FB3CA6900067722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68222FB3CA6900067722 /* AppDelegate.swift */; };
+		305A684B2FB3CA6900067722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A68242FB3CA6900067722 /* ContentView.swift */; };
+		305A684C2FB3CA6900067722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A682A2FB3CA6900067722 /* SceneDelegate.swift */; };
+		305A684D2FB3CA6900067722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A682B2FB3CA6900067722 /* ViewController.swift */; };
+		305A684E2FB3CA6900067722 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 305A68202FB3CA6900067722 /* privacy_policy.md */; };
+		305A684F2FB3CA6900067722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305A68232FB3CA6900067722 /* Assets.xcassets */; };
+		305A68512FB3CA6900067722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305A68272FB3CA6900067722 /* LaunchScreen.storyboard */; };
+		305A68522FB3CA6900067722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305A68292FB3CA6900067722 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		15D5EE7B39E42A55E0F4DC04 /* Pods-174NyxoriaDaymirror.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-174NyxoriaDaymirror.debug.xcconfig"; path = "Target Support Files/Pods-174NyxoriaDaymirror/Pods-174NyxoriaDaymirror.debug.xcconfig"; sourceTree = "<group>"; };
 		305A647F2FB3AF9100067722 /* 174NyxoriaDaymirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 174NyxoriaDaymirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		305A67EE2FB3CA6900067722 /* AppButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonStyles.swift; sourceTree = "<group>"; };
+		305A67EF2FB3CA6900067722 /* DotPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotPageIndicator.swift; sourceTree = "<group>"; };
+		305A67F02FB3CA6900067722 /* LayeredBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredBackgroundView.swift; sourceTree = "<group>"; };
+		305A67F12FB3CA6900067722 /* PauseOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseOverlayView.swift; sourceTree = "<group>"; };
+		305A67F32FB3CA6900067722 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		305A67F52FB3CA6900067722 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		305A67F62FB3CA6900067722 /* AppVisualChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualChrome.swift; sourceTree = "<group>"; };
+		305A67F82FB3CA6900067722 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		305A67F92FB3CA6900067722 /* SystemSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSounds.swift; sourceTree = "<group>"; };
+		305A67FB2FB3CA6900067722 /* ActivityDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDefinition.swift; sourceTree = "<group>"; };
+		305A67FC2FB3CA6900067722 /* GameDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDifficulty.swift; sourceTree = "<group>"; };
+		305A67FE2FB3CA6900067722 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
+		305A68002FB3CA6900067722 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		305A68022FB3CA6900067722 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
+		305A68052FB3CA6900067722 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		305A68072FB3CA6900067722 /* ChorusGroveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusGroveView.swift; sourceTree = "<group>"; };
+		305A68082FB3CA6900067722 /* ChorusGroveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusGroveViewModel.swift; sourceTree = "<group>"; };
+		305A680A2FB3CA6900067722 /* PetalHarmonyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalHarmonyView.swift; sourceTree = "<group>"; };
+		305A680B2FB3CA6900067722 /* PetalHarmonyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalHarmonyViewModel.swift; sourceTree = "<group>"; };
+		305A680D2FB3CA6900067722 /* PetalPathwayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalPathwayView.swift; sourceTree = "<group>"; };
+		305A680E2FB3CA6900067722 /* PetalPathwayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalPathwayViewModel.swift; sourceTree = "<group>"; };
+		305A68112FB3CA6900067722 /* HowToPlayViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViews.swift; sourceTree = "<group>"; };
+		305A68132FB3CA6900067722 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		305A68142FB3CA6900067722 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		305A68162FB3CA6900067722 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		305A68182FB3CA6900067722 /* ActivitySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySelectionView.swift; sourceTree = "<group>"; };
+		305A68192FB3CA6900067722 /* PlayTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTabView.swift; sourceTree = "<group>"; };
+		305A681B2FB3CA6900067722 /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
+		305A681D2FB3CA6900067722 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		305A68202FB3CA6900067722 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		305A68222FB3CA6900067722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		305A68232FB3CA6900067722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		305A68242FB3CA6900067722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		305A68252FB3CA6900067722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305A68262FB3CA6900067722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		305A68282FB3CA6900067722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		305A682A2FB3CA6900067722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		305A682B2FB3CA6900067722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89688FE1E97F2EC2C67A8EF4 /* Pods_174NyxoriaDaymirror.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_174NyxoriaDaymirror.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C91AA3DB0A41DBE2F036E18 /* Pods-174NyxoriaDaymirror.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-174NyxoriaDaymirror.release.xcconfig"; path = "Target Support Files/Pods-174NyxoriaDaymirror/Pods-174NyxoriaDaymirror.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		305A64912FB3AF9300067722 /* Exceptions for "174NyxoriaDaymirror" folder in "174NyxoriaDaymirror" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 305A647E2FB3AF9100067722 /* 174NyxoriaDaymirror */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		305A64812FB3AF9100067722 /* 174NyxoriaDaymirror */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				305A64912FB3AF9300067722 /* Exceptions for "174NyxoriaDaymirror" folder in "174NyxoriaDaymirror" target */,
-			);
-			path = 174NyxoriaDaymirror;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		305A647C2FB3AF9100067722 /* Frameworks */ = {
@@ -45,8 +105,10 @@
 		305A64762FB3AF9100067722 = {
 			isa = PBXGroup;
 			children = (
-				305A64812FB3AF9100067722 /* 174NyxoriaDaymirror */,
+				305A682C2FB3CA6900067722 /* 174NyxoriaDaymirror */,
 				305A64802FB3AF9100067722 /* Products */,
+				D2E16D4050316CDA2D8776D5 /* Pods */,
+				41CE28DF0DA8DC13DEB4540C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +120,244 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		305A67F22FB3CA6900067722 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				305A67EE2FB3CA6900067722 /* AppButtonStyles.swift */,
+				305A67EF2FB3CA6900067722 /* DotPageIndicator.swift */,
+				305A67F02FB3CA6900067722 /* LayeredBackgroundView.swift */,
+				305A67F12FB3CA6900067722 /* PauseOverlayView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		305A67F42FB3CA6900067722 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				305A67F32FB3CA6900067722 /* AppExternalLink.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		305A67F72FB3CA6900067722 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				305A67F52FB3CA6900067722 /* AppColors.swift */,
+				305A67F62FB3CA6900067722 /* AppVisualChrome.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		305A67FA2FB3CA6900067722 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				305A67F82FB3CA6900067722 /* HapticFeedback.swift */,
+				305A67F92FB3CA6900067722 /* SystemSounds.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		305A67FD2FB3CA6900067722 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				305A67FB2FB3CA6900067722 /* ActivityDefinition.swift */,
+				305A67FC2FB3CA6900067722 /* GameDifficulty.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		305A67FF2FB3CA6900067722 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				305A67FE2FB3CA6900067722 /* AppNotifications.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		305A68012FB3CA6900067722 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				305A68002FB3CA6900067722 /* AppStorage.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		305A68032FB3CA6900067722 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				305A68022FB3CA6900067722 /* CalendarDay.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		305A68042FB3CA6900067722 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				305A67F42FB3CA6900067722 /* Configuration */,
+				305A67F72FB3CA6900067722 /* Design */,
+				305A67FA2FB3CA6900067722 /* Feedback */,
+				305A67FD2FB3CA6900067722 /* Models */,
+				305A67FF2FB3CA6900067722 /* Notifications */,
+				305A68012FB3CA6900067722 /* Persistence */,
+				305A68032FB3CA6900067722 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		305A68062FB3CA6900067722 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				305A68052FB3CA6900067722 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		305A68092FB3CA6900067722 /* ChorusGrove */ = {
+			isa = PBXGroup;
+			children = (
+				305A68072FB3CA6900067722 /* ChorusGroveView.swift */,
+				305A68082FB3CA6900067722 /* ChorusGroveViewModel.swift */,
+			);
+			path = ChorusGrove;
+			sourceTree = "<group>";
+		};
+		305A680C2FB3CA6900067722 /* PetalHarmony */ = {
+			isa = PBXGroup;
+			children = (
+				305A680A2FB3CA6900067722 /* PetalHarmonyView.swift */,
+				305A680B2FB3CA6900067722 /* PetalHarmonyViewModel.swift */,
+			);
+			path = PetalHarmony;
+			sourceTree = "<group>";
+		};
+		305A680F2FB3CA6900067722 /* PetalPathway */ = {
+			isa = PBXGroup;
+			children = (
+				305A680D2FB3CA6900067722 /* PetalPathwayView.swift */,
+				305A680E2FB3CA6900067722 /* PetalPathwayViewModel.swift */,
+			);
+			path = PetalPathway;
+			sourceTree = "<group>";
+		};
+		305A68102FB3CA6900067722 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				305A68092FB3CA6900067722 /* ChorusGrove */,
+				305A680C2FB3CA6900067722 /* PetalHarmony */,
+				305A680F2FB3CA6900067722 /* PetalPathway */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		305A68122FB3CA6900067722 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				305A68112FB3CA6900067722 /* HowToPlayViews.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		305A68152FB3CA6900067722 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				305A68132FB3CA6900067722 /* HomeView.swift */,
+				305A68142FB3CA6900067722 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		305A68172FB3CA6900067722 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				305A68162FB3CA6900067722 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		305A681A2FB3CA6900067722 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				305A68182FB3CA6900067722 /* ActivitySelectionView.swift */,
+				305A68192FB3CA6900067722 /* PlayTabView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		305A681C2FB3CA6900067722 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				305A681B2FB3CA6900067722 /* GameResultView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		305A681E2FB3CA6900067722 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				305A681D2FB3CA6900067722 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		305A681F2FB3CA6900067722 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				305A68062FB3CA6900067722 /* Achievements */,
+				305A68102FB3CA6900067722 /* Activities */,
+				305A68122FB3CA6900067722 /* Guide */,
+				305A68152FB3CA6900067722 /* Main */,
+				305A68172FB3CA6900067722 /* Onboarding */,
+				305A681A2FB3CA6900067722 /* Play */,
+				305A681C2FB3CA6900067722 /* Results */,
+				305A681E2FB3CA6900067722 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		305A68212FB3CA6900067722 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				305A68202FB3CA6900067722 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		305A682C2FB3CA6900067722 /* 174NyxoriaDaymirror */ = {
+			isa = PBXGroup;
+			children = (
+				305A67F22FB3CA6900067722 /* Components */,
+				305A68042FB3CA6900067722 /* Core */,
+				305A681F2FB3CA6900067722 /* Features */,
+				305A68212FB3CA6900067722 /* Resources */,
+				305A68222FB3CA6900067722 /* AppDelegate.swift */,
+				305A68232FB3CA6900067722 /* Assets.xcassets */,
+				305A68242FB3CA6900067722 /* ContentView.swift */,
+				305A68252FB3CA6900067722 /* Info.plist */,
+				305A68272FB3CA6900067722 /* LaunchScreen.storyboard */,
+				305A68292FB3CA6900067722 /* Main.storyboard */,
+				305A682A2FB3CA6900067722 /* SceneDelegate.swift */,
+				305A682B2FB3CA6900067722 /* ViewController.swift */,
+			);
+			path = 174NyxoriaDaymirror;
+			sourceTree = "<group>";
+		};
+		41CE28DF0DA8DC13DEB4540C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89688FE1E97F2EC2C67A8EF4 /* Pods_174NyxoriaDaymirror.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E16D4050316CDA2D8776D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15D5EE7B39E42A55E0F4DC04 /* Pods-174NyxoriaDaymirror.debug.xcconfig */,
+				9C91AA3DB0A41DBE2F036E18 /* Pods-174NyxoriaDaymirror.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 305A64922FB3AF9300067722 /* Build configuration list for PBXNativeTarget "174NyxoriaDaymirror" */;
 			buildPhases = (
+				208B2AAEC4685FF0EC17206F /* [CP] Check Pods Manifest.lock */,
 				305A647B2FB3AF9100067722 /* Sources */,
 				305A647C2FB3AF9100067722 /* Frameworks */,
 				305A647D2FB3AF9100067722 /* Resources */,
@@ -73,12 +374,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				305A64812FB3AF9100067722 /* 174NyxoriaDaymirror */,
-			);
 			name = 174NyxoriaDaymirror;
-			packageProductDependencies = (
-			);
 			productName = 174NyxoriaDaymirror;
 			productReference = 305A647F2FB3AF9100067722 /* 174NyxoriaDaymirror.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +395,7 @@
 				};
 			};
 			buildConfigurationList = 305A647A2FB3AF9100067722 /* Build configuration list for PBXProject "174NyxoriaDaymirror" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +403,6 @@
 				Base,
 			);
 			mainGroup = 305A64762FB3AF9100067722;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 305A64802FB3AF9100067722 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +417,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305A684E2FB3CA6900067722 /* privacy_policy.md in Resources */,
+				305A684F2FB3CA6900067722 /* Assets.xcassets in Resources */,
+				305A68512FB3CA6900067722 /* LaunchScreen.storyboard in Resources */,
+				305A68522FB3CA6900067722 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208B2AAEC4685FF0EC17206F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-174NyxoriaDaymirror-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		305A647B2FB3AF9100067722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305A682D2FB3CA6900067722 /* AppButtonStyles.swift in Sources */,
+				305A682E2FB3CA6900067722 /* DotPageIndicator.swift in Sources */,
+				305A682F2FB3CA6900067722 /* LayeredBackgroundView.swift in Sources */,
+				305A68302FB3CA6900067722 /* PauseOverlayView.swift in Sources */,
+				305A68312FB3CA6900067722 /* AppExternalLink.swift in Sources */,
+				305A68322FB3CA6900067722 /* AppColors.swift in Sources */,
+				305A68332FB3CA6900067722 /* AppVisualChrome.swift in Sources */,
+				305A68342FB3CA6900067722 /* HapticFeedback.swift in Sources */,
+				305A68352FB3CA6900067722 /* SystemSounds.swift in Sources */,
+				305A68362FB3CA6900067722 /* ActivityDefinition.swift in Sources */,
+				305A68372FB3CA6900067722 /* GameDifficulty.swift in Sources */,
+				305A68382FB3CA6900067722 /* AppNotifications.swift in Sources */,
+				305A68392FB3CA6900067722 /* AppStorage.swift in Sources */,
+				305A683A2FB3CA6900067722 /* CalendarDay.swift in Sources */,
+				305A683B2FB3CA6900067722 /* AchievementsView.swift in Sources */,
+				305A683C2FB3CA6900067722 /* ChorusGroveView.swift in Sources */,
+				305A683D2FB3CA6900067722 /* ChorusGroveViewModel.swift in Sources */,
+				305A683E2FB3CA6900067722 /* PetalHarmonyView.swift in Sources */,
+				305A683F2FB3CA6900067722 /* PetalHarmonyViewModel.swift in Sources */,
+				305A68402FB3CA6900067722 /* PetalPathwayView.swift in Sources */,
+				305A68412FB3CA6900067722 /* PetalPathwayViewModel.swift in Sources */,
+				305A68422FB3CA6900067722 /* HowToPlayViews.swift in Sources */,
+				305A68432FB3CA6900067722 /* HomeView.swift in Sources */,
+				305A68442FB3CA6900067722 /* MainTabView.swift in Sources */,
+				305A68452FB3CA6900067722 /* OnboardingView.swift in Sources */,
+				305A68462FB3CA6900067722 /* ActivitySelectionView.swift in Sources */,
+				305A68472FB3CA6900067722 /* PlayTabView.swift in Sources */,
+				305A68482FB3CA6900067722 /* GameResultView.swift in Sources */,
+				305A68492FB3CA6900067722 /* SettingsView.swift in Sources */,
+				305A684A2FB3CA6900067722 /* AppDelegate.swift in Sources */,
+				305A684B2FB3CA6900067722 /* ContentView.swift in Sources */,
+				305A684C2FB3CA6900067722 /* SceneDelegate.swift in Sources */,
+				305A684D2FB3CA6900067722 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		305A68272FB3CA6900067722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305A68262FB3CA6900067722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		305A68292FB3CA6900067722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305A68282FB3CA6900067722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		305A64932FB3AF9300067722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D5EE7B39E42A55E0F4DC04 /* Pods-174NyxoriaDaymirror.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +524,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 174NyxoriaDaymirror/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nyxoria Daymirror";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.role-playing-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-74NyxoriaDaymirror";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mee.n7x0r16d68m1rr0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		305A64942FB3AF9300067722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C91AA3DB0A41DBE2F036E18 /* Pods-174NyxoriaDaymirror.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +565,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 174NyxoriaDaymirror/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nyxoria Daymirror";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.role-playing-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-74NyxoriaDaymirror";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mee.n7x0r16d68m1rr0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -204,7 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -267,7 +663,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
