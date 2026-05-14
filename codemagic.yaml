@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "174NyxoriaDaymirror.xcworkspace"
           XCODE_SCHEME: "174NyxoriaDaymirror"
           BUNDLE_ID: "com.mee.n7x0r16d68m1rr0r"
-          APP_STORE_APP_ID: 6764544142
+          APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
       scripts:
